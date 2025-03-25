@@ -1,0 +1,249 @@
+
+:root {
+    --color-aqua: #00d9d9;
+    --color-titulos: #000;
+    --color-contenido: #2d2d2d;
+    --bg-header: #000;
+    --bg-footer: #222222;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --accent-color: #FFD700;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+p, span, li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 650;
+}
+
+h2 {
+    font-weight: 1000;
+}
+
+
+header {
+    background-color: var(--bg-header);
+    padding: 20px 0;
+}
+
+
+.btn {
+    background-color: var(--color-aqua);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+
+.slides-texto h2 {
+    font-family: var(--color-titulos);
+    text-align: left;
+    font-size: 75px;
+    padding-right: 150px;
+    margin-left: -75px;
+    text-transform: uppercase;
+}
+
+.slides-texto p {
+    font-family: var(--color-contenido);
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 250px;
+    padding-right: 150px;
+    margin-left: -75px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.slide h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.slide p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.slide button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.slide button:hover {
+    background-color: #0056b3;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+
+
+i{
+	font-size: 70px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f5f5f5;
+    align-items: center;
+	
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.doctors {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.doctor {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.doctor img {
+    width: 100%;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+
+#testimonials {
+    background-color: var(--background-color);
+    padding: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testimonial {
+    margin: 70px auto;
+    max-width: 600px;
+}
+
+.testimonial p {
+    color: var(--text-color);
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.quote-icon {
+    font-size: 2.5em;
+    color: var(--accent-color);
+    margin: 10px 0;
+}
+
+.rating {
+    color: var(--accent-color);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: var(--bg-footer);
+    color: #888;
+    padding: 30px 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer p span {
+    color: var(--color-aqua);
+}
+
+footer #copy {
+    padding: 20px 0;
+    margin-top: 5%;
+    color: #fff;
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
